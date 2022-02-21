@@ -5,7 +5,7 @@ Abaixo de R$500,00	15%
 de R$500,00 até R$1000,00	10%
 Acima de R$1000,00	5% """
 
-salario_atual = float(input('Informe o salario atual'))
+salario_atual = float(input('Informe o salario atual: '))
 
 if (salario_atual < 500):
     salario_novo = salario_atual+(salario_atual*0.15)
